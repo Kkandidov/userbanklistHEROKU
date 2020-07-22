@@ -25,15 +25,15 @@
             <%@include file="home.jsp"%>
         </c:if>
 
-<%--        <!-- Loading the 'task 5' content -->--%>
-<%--        <c:if test="${task5Clicked == true}">--%>
-<%--            <%@include file="task5.jsp"%>--%>
-<%--        </c:if>--%>
+        <!-- Loading the 'task 5' content -->
+        <c:if test="${task5Clicked == true}">
+            <%@include file="task5.jsp"%>
+        </c:if>
 
-<%--        <!-- Loading the 'task 8' content -->--%>
-<%--        <c:if test="${task8Clicked == true}">--%>
-<%--            <%@include file="task8.jsp"%>--%>
-<%--        </c:if>--%>
+        <!-- Loading the 'task 8' content -->
+        <c:if test="${task8Clicked == true}">
+            <%@include file="task8.jsp"%>
+        </c:if>
 
 		<script src="${contextRoot}/js/app.js"></script>
 	</body>
